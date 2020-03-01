@@ -21392,13 +21392,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="P+28" library="jcole" deviceset="VCC" device=""/>
 <part name="GND40" library="jcole" deviceset="GND" device=""/>
 <part name="P+30" library="jcole" deviceset="VCC" device=""/>
-<part name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-2N3904" package3d_urn="urn:adsk.eagle:package:38450/1" value="200mA/40V"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-2N3904" package3d_urn="urn:adsk.eagle:package:38450/1" value="200mA/40V"/>
-<part name="P+4" library="jcole" deviceset="VCC" device=""/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
-<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k"/>
-<part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-HORIZ-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39658/1" value="1k"/>
-<part name="GND41" library="jcole" deviceset="GND" device=""/>
 <part name="U$2" library="6502" deviceset="W65C22S" device="P" technology="6T"/>
 <part name="GND42" library="jcole" deviceset="GND" device=""/>
 <part name="GND43" library="jcole" deviceset="GND" device=""/>
@@ -21733,32 +21726,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="P+30" gate="1" x="25.4" y="-53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="29.464" y="-54.864" size="1.778" layer="96"/>
 </instance>
-<instance part="Q5" gate="G$1" x="53.34" y="-93.98" smashed="yes">
-<attribute name="NAME" x="55.88" y="-93.98" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="55.88" y="-96.266" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="Q6" gate="G$1" x="53.34" y="-83.82" smashed="yes">
-<attribute name="NAME" x="55.88" y="-83.82" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="55.88" y="-86.106" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="P+4" gate="1" x="55.88" y="-78.74" smashed="yes">
-<attribute name="VALUE" x="54.864" y="-75.184" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="45.72" y="-83.82" smashed="yes">
-<attribute name="NAME" x="45.72" y="-82.296" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="45.72" y="-85.344" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R12" gate="G$1" x="45.72" y="-93.98" smashed="yes">
-<attribute name="NAME" x="45.72" y="-92.456" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="45.72" y="-95.504" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R13" gate="G$1" x="55.88" y="-104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.356" y="-104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="57.404" y="-104.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND41" gate="1" x="55.88" y="-111.76" smashed="yes">
-<attribute name="VALUE" x="53.34" y="-114.3" size="1.778" layer="96"/>
-</instance>
 <instance part="U$2" gate="VIA" x="-17.78" y="175.26" smashed="yes">
 <attribute name="PART" x="-22.225" y="205.105" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.225" y="143.51" size="1.778" layer="96"/>
@@ -22008,10 +21975,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="P+30" gate="1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="Q6" gate="G$1" pin="C"/>
-<pinref part="P+4" gate="1" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="VIAP" pin="VDD"/>
 <pinref part="P+20" gate="1" pin="VCC"/>
 </segment>
@@ -22182,10 +22145,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="VIA" pin="!CS2B"/>
@@ -22375,11 +22334,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-5.08" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
 <label x="-7.62" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="MEMSEL1" gate="G$1" pin="7"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-83.82" x2="38.1" y2="-83.82" width="0.1524" layer="91"/>
-<label x="38.1" y="-83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="-53.34" x2="63.5" y2="-53.34" width="0.1524" layer="91"/>
@@ -24010,11 +23964,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="MEMORY1" gate="G$1" pin="CE2"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-93.98" x2="38.1" y2="-93.98" width="0.1524" layer="91"/>
-<label x="38.1" y="-93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="66.04" y1="-55.88" x2="63.5" y2="-55.88" width="0.1524" layer="91"/>
 <label x="63.5" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="EEPROM1" gate="G$1" pin="CE2"/>
@@ -24035,33 +23984,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J4" gate="G$1" pin="40"/>
 <wire x1="185.42" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="187.96" y="109.22" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="EPS" class="0">
-<segment>
-<wire x1="55.88" y1="-99.06" x2="53.34" y2="-99.06" width="0.1524" layer="91"/>
-<label x="53.34" y="-99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<junction x="55.88" y="-99.06"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="Q5" gate="G$1" pin="C"/>
-<pinref part="Q6" gate="G$1" pin="E"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="Q6" gate="G$1" pin="B"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="Q5" gate="G$1" pin="B"/>
-<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IOSEL7" class="0">
