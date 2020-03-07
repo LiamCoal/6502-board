@@ -21740,11 +21740,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="VALUE" x="-21.59" y="211.074" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-21.59" y="241.808" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND44" gate="1" x="187.96" y="127" smashed="yes" rot="R90"/>
-<instance part="P+21" gate="1" x="185.42" y="124.46" smashed="yes" rot="R270"/>
-<instance part="J4" gate="G$1" x="177.8" y="134.62" smashed="yes">
-<attribute name="VALUE" x="173.99" y="104.394" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="173.99" y="160.528" size="1.778" layer="95" font="vector"/>
+<instance part="GND44" gate="1" x="200.66" y="127" smashed="yes" rot="R90"/>
+<instance part="P+21" gate="1" x="198.12" y="124.46" smashed="yes" rot="R270"/>
+<instance part="J4" gate="G$1" x="190.5" y="134.62" smashed="yes">
+<attribute name="VALUE" x="186.69" y="104.394" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="186.69" y="160.528" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="EEPROM1" gate="G$1" x="83.82" y="-33.02" smashed="yes"/>
 <instance part="GND20" gate="1" x="63.5" y="-48.26" smashed="yes" rot="R270"/>
@@ -21806,10 +21806,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="63.5" y1="162.56" x2="-2.54" y2="162.56" width="0.762" layer="92"/>
 <wire x1="-2.54" y1="162.56" x2="-2.54" y2="180.34" width="0.762" layer="92"/>
 <wire x1="-2.54" y1="162.56" x2="-2.54" y2="149.86" width="0.762" layer="92"/>
-<wire x1="190.5" y1="165.1" x2="190.5" y2="147.32" width="0.762" layer="92"/>
-<wire x1="165.1" y1="165.1" x2="165.1" y2="111.76" width="0.762" layer="92"/>
-<wire x1="152.4" y1="165.1" x2="165.1" y2="165.1" width="0.762" layer="92"/>
-<wire x1="165.1" y1="165.1" x2="190.5" y2="165.1" width="0.762" layer="92"/>
+<wire x1="203.2" y1="165.1" x2="203.2" y2="147.32" width="0.762" layer="92"/>
+<wire x1="177.8" y1="165.1" x2="177.8" y2="111.76" width="0.762" layer="92"/>
+<wire x1="152.4" y1="165.1" x2="177.8" y2="165.1" width="0.762" layer="92"/>
+<wire x1="177.8" y1="165.1" x2="203.2" y2="165.1" width="0.762" layer="92"/>
 <wire x1="63.5" y1="-5.08" x2="63.5" y2="-40.64" width="0.762" layer="92"/>
 <wire x1="101.6" y1="-5.08" x2="101.6" y2="-27.94" width="0.762" layer="92"/>
 </segment>
@@ -22389,8 +22389,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="157.48" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
+<label x="172.72" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A0"/>
@@ -22435,8 +22436,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="154.94" x2="-5.08" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="154.94" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="3"/>
+<label x="172.72" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A1"/>
@@ -22481,8 +22483,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="152.4" x2="-5.08" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="5"/>
+<label x="172.72" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A2"/>
@@ -22527,8 +22530,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="149.86" x2="-5.08" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="7"/>
+<label x="172.72" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A3"/>
@@ -22569,8 +22573,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="9"/>
+<label x="172.72" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A4"/>
@@ -22611,8 +22616,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="11"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="144.78" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="11"/>
+<label x="172.72" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A5"/>
@@ -22653,8 +22659,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="13"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="13"/>
+<label x="172.72" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A6"/>
@@ -22695,8 +22702,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="15"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="15"/>
+<label x="172.72" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A7"/>
@@ -22737,8 +22745,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="17"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="17"/>
+<label x="172.72" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A8"/>
@@ -22779,8 +22788,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="19"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="19"/>
+<label x="172.72" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A9"/>
@@ -22825,8 +22835,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="21"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="21"/>
+<label x="172.72" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A10"/>
@@ -22871,8 +22882,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="23"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="23"/>
+<label x="172.72" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A11"/>
@@ -22917,8 +22929,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="25"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="25"/>
+<label x="172.72" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="A12"/>
@@ -22970,8 +22983,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="180.34" x2="-5.08" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="33"/>
+<label x="172.72" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ0"/>
@@ -23023,8 +23037,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="177.8" x2="-5.08" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="35"/>
+<label x="172.72" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ1"/>
@@ -23076,8 +23091,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="175.26" x2="-5.08" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="37"/>
+<label x="172.72" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ2"/>
@@ -23129,8 +23145,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="172.72" x2="-5.08" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="157.48" x2="185.42" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="2"/>
+<label x="205.74" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ3"/>
@@ -23182,8 +23199,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="170.18" x2="-5.08" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="4"/>
+<label x="205.74" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ4"/>
@@ -23235,8 +23253,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="167.64" x2="-5.08" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="6"/>
+<label x="205.74" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ5"/>
@@ -23288,8 +23307,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="165.1" x2="-5.08" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="8"/>
+<label x="205.74" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ6"/>
@@ -23341,8 +23361,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="-2.54" y1="162.56" x2="-5.08" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="147.32" x2="185.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="10"/>
+<label x="205.74" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="EEPROM1" gate="G$1" pin="DQ7"/>
@@ -23368,8 +23389,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="31"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="119.38" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="31"/>
+<label x="172.72" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -23391,8 +23413,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="29"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="29"/>
+<label x="172.72" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A13" class="0">
@@ -23414,8 +23437,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="27"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="27"/>
+<label x="172.72" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -23448,8 +23472,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="34"/>
-<wire x1="185.42" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
-<label x="187.96" y="116.84" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="200.66" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -23500,8 +23524,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="39"/>
-<wire x1="170.18" y1="109.22" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
-<label x="167.64" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="182.88" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
+<label x="180.34" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -23585,8 +23609,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="12"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
-<label x="187.96" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
+<label x="200.66" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 </net>
@@ -23602,8 +23626,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="14"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
-<label x="187.96" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<label x="200.66" y="142.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="14"/>
 </segment>
 </net>
@@ -23619,8 +23643,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="16"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
-<label x="187.96" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
+<label x="200.66" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="16"/>
 </segment>
 </net>
@@ -23636,8 +23660,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="18"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
-<label x="187.96" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
+<label x="200.66" y="137.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="18"/>
 </segment>
 </net>
@@ -23653,8 +23677,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="20"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-<label x="187.96" y="134.62" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
+<label x="200.66" y="134.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="20"/>
 </segment>
 </net>
@@ -23670,8 +23694,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="22"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
-<label x="187.96" y="132.08" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
+<label x="200.66" y="132.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="22"/>
 </segment>
 </net>
@@ -23697,8 +23721,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="-2.54" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
-<label x="187.96" y="129.54" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
+<label x="200.66" y="129.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="24"/>
 </segment>
 </net>
@@ -23720,8 +23744,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="38"/>
-<wire x1="185.42" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<label x="187.96" y="111.76" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<label x="200.66" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MEMLOCK" class="0">
@@ -23750,8 +23774,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="J2" gate="G$1" pin="30"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<label x="187.96" y="121.92" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="200.66" y="121.92" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="30"/>
 </segment>
 </net>
@@ -23792,8 +23816,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="32"/>
-<wire x1="185.42" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<label x="187.96" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="200.66" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWRIN" class="1">
@@ -23809,8 +23833,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="33.02" y="-27.94" size="1.27" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
-<label x="187.96" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="200.66" y="114.3" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="36"/>
 </segment>
 </net>
@@ -23982,8 +24006,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="40"/>
-<wire x1="185.42" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
-<label x="187.96" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="198.12" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="200.66" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IOSEL7" class="0">
@@ -24006,6 +24030,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="238.76" x2="-25.4" y2="238.76" width="0.1524" layer="91"/>
+<label x="-33.02" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA1" class="0">
@@ -24016,6 +24041,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="-27.94" y1="236.22" x2="-25.4" y2="236.22" width="0.1524" layer="91"/>
+<label x="-33.02" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA2" class="0">
@@ -24026,6 +24052,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
 <wire x1="-27.94" y1="233.68" x2="-25.4" y2="233.68" width="0.1524" layer="91"/>
+<label x="-33.02" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA3" class="0">
@@ -24036,6 +24063,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
 <wire x1="-27.94" y1="231.14" x2="-25.4" y2="231.14" width="0.1524" layer="91"/>
+<label x="-33.02" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA4" class="0">
@@ -24046,6 +24074,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="9"/>
 <wire x1="-27.94" y1="228.6" x2="-25.4" y2="228.6" width="0.1524" layer="91"/>
+<label x="-33.02" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA5" class="0">
@@ -24056,6 +24085,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="11"/>
 <wire x1="-27.94" y1="226.06" x2="-25.4" y2="226.06" width="0.1524" layer="91"/>
+<label x="-33.02" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA6" class="0">
@@ -24066,6 +24096,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="13"/>
 <wire x1="-27.94" y1="223.52" x2="-25.4" y2="223.52" width="0.1524" layer="91"/>
+<label x="-33.02" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA7" class="0">
@@ -24076,6 +24107,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="15"/>
 <wire x1="-27.94" y1="220.98" x2="-25.4" y2="220.98" width="0.1524" layer="91"/>
+<label x="-33.02" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CA1" class="0">
@@ -24086,6 +24118,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="17"/>
 <wire x1="-27.94" y1="218.44" x2="-25.4" y2="218.44" width="0.1524" layer="91"/>
+<label x="-33.02" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CA2" class="0">
@@ -24096,6 +24129,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="19"/>
 <wire x1="-27.94" y1="215.9" x2="-25.4" y2="215.9" width="0.1524" layer="91"/>
+<label x="-33.02" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB0" class="0">
@@ -24106,6 +24140,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="238.76" x2="-10.16" y2="238.76" width="0.1524" layer="91"/>
+<label x="-5.08" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB1" class="0">
@@ -24116,6 +24151,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="-7.62" y1="236.22" x2="-10.16" y2="236.22" width="0.1524" layer="91"/>
+<label x="-5.08" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB2" class="0">
@@ -24126,6 +24162,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="-7.62" y1="233.68" x2="-10.16" y2="233.68" width="0.1524" layer="91"/>
+<label x="-5.08" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB3" class="0">
@@ -24136,6 +24173,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="-7.62" y1="231.14" x2="-10.16" y2="231.14" width="0.1524" layer="91"/>
+<label x="-5.08" y="231.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB4" class="0">
@@ -24146,6 +24184,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="10"/>
 <wire x1="-7.62" y1="228.6" x2="-10.16" y2="228.6" width="0.1524" layer="91"/>
+<label x="-5.08" y="228.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -24156,6 +24195,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="12"/>
 <wire x1="-7.62" y1="226.06" x2="-10.16" y2="226.06" width="0.1524" layer="91"/>
+<label x="-5.08" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB6" class="0">
@@ -24166,6 +24206,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="14"/>
 <wire x1="-7.62" y1="223.52" x2="-10.16" y2="223.52" width="0.1524" layer="91"/>
+<label x="-5.08" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB7" class="0">
@@ -24176,6 +24217,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="16"/>
 <wire x1="-7.62" y1="220.98" x2="-10.16" y2="220.98" width="0.1524" layer="91"/>
+<label x="-5.08" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CB1" class="0">
@@ -24186,6 +24228,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="18"/>
 <wire x1="-7.62" y1="218.44" x2="-10.16" y2="218.44" width="0.1524" layer="91"/>
+<label x="-5.08" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CB2" class="0">
@@ -24196,6 +24239,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J3" gate="G$1" pin="20"/>
 <wire x1="-7.62" y1="215.9" x2="-10.16" y2="215.9" width="0.1524" layer="91"/>
+<label x="-5.08" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
