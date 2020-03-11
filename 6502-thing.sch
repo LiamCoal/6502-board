@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22236,6 +22236,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="63.5" y="-58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="EEPROM1" gate="G$1" pin="!WE!"/>
 </segment>
+<segment>
+<wire x1="198.12" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="200.66" y="114.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="J4" gate="G$1" pin="36"/>
+</segment>
 </net>
 <net name="MS1" class="0">
 <segment>
@@ -23831,11 +23836,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="33.02" y1="-35.56" x2="33.02" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <label x="33.02" y="-27.94" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="198.12" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<label x="200.66" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="36"/>
 </segment>
 </net>
 <net name="CLKRST" class="0">
